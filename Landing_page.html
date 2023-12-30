@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding: 50px 0;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+        :root {
+            --gradient-start: #4a69bd;
+            --gradient-end: #7a4d82;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://imgs.search.brave.com/ua3IxcL86e72_hbo3jBgPd3R5q2UG4Pt6VFOah01Y0o/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDk5/NzI3ODMwL3Bob3Rv/L2ludGVyc2hpcC1i/bGFja2JvYXJkLWNv/bmNlcHQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPWFrdGFK/T3ZfUXkxUTZNWC1D/SVUxMzRoSTR1UUpD/cWFLRUpwbjI0UDNj/Mlk9');
+            background-size: cover;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .header {
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 0;
+        }
+        .column {
+            box-shadow: 0 5px 15px rgba(0,0,0,1);
+            background-color: black;
+            background-size: 200px 200px;
+    flex: 1;
+    padding: 0 15px;
+    
+    color:aqua;
+}
+        .button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to Our Agency</h1>
+            <p>Read More</p>
+        </div>
+        <div class="content">
+            <div class="column">
+                <h2>Internship</h2>
+                <p>Page Services Testimonials Contact</p>
+                <a href="#" class="button">Buy Now</a>
+            </div>
+            <div class="column">
+                <h2>About Us</h2>
+                <p>15 years, we passionate about achieving better results for our clients</p>
+                <p>4 ONLINE SUPPORT TEAM</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 PAVAN M. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
